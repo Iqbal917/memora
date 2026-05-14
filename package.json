@@ -1,0 +1,10 @@
+{
+  "name": "project",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces"
+  }
+}
